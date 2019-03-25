@@ -30,9 +30,9 @@ int main()
 {
     int arr[] = {3, 1, 4, 1, 5, 9, 2};
 
-    const int min = min_element(arr, N_ELEMENTS(arr));
+    const int min = min_element(arr, 7);
 
-    print_array(arr, N_ELEMENTS(arr));
+    print_array(arr, 7);
     printf("Min element: %d\n", min);
 
     return 0;
